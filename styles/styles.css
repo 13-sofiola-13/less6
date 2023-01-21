@@ -21,6 +21,10 @@
 	justify-content: space-between;
 }
 
+.nav-text{
+	color: blue;
+}
+
 .conteiner1{
 	width: 1200px;
 	height: 411px;
@@ -87,8 +91,7 @@
 }
 
 .white-box{
-	background: white;
-	border-color: black;
+	border: 2px solid white;
 	width: 130px;
 	height: 45px;	
 	border-radius: 23px;

@@ -2,20 +2,23 @@
 	display: flex;
 	justify-content: center; 
 	margin-top: 67PX;
+	font-family: 'Lato';
 }
 .navigation{
 	display: flex;
 	align-items: center; 
 	width: 1200px;
-	justify-content: space-between
+	justify-content: space-between;
+	font-family: 'Lato';
 
 }
 .nav-2{
-	width: 500px;
+	width: 400px;
 	color: #3D37F1;
 	display: flex;
 	align-items: center; 
-	justify-content: space-between; 
+	justify-content: space-between;
+
 }
 
 .conteiner1{
@@ -26,6 +29,7 @@
 	justify-content: space-between; 
 	margin-top: 132px;
 	margin-bottom: 120px;
+	font-family: 'Lato';
 }
  
  .Provide{
@@ -36,6 +40,7 @@
 
 .Provide2{
 	font-size: 72px;
+
 }
 
 .big-img{
@@ -63,7 +68,10 @@
 .conteiner2{
 	width: 1200px;
 	margin: 0 auto;
+	margin-bottom: 50px;
+	font-family: 'Roboto';
 	}
+
 
 .box1{
 	width: 370px;
@@ -114,10 +122,12 @@
 	margin-top: 17px;
 	margin-bottom: 21px;
 	font-weight: bold;
+	font-size: 40px;
 }
 .our{
 	color: #3D37F1;
 	font-weight: bold;
+	font-size: 20px;
 }
 
 .box11{

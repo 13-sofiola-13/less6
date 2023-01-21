@@ -4,21 +4,21 @@
 	margin-top: 67PX;
 	font-family: 'Lato';
 }
+
 .navigation{
 	display: flex;
 	align-items: center; 
 	width: 1200px;
 	justify-content: space-between;
 	font-family: 'Lato';
-
 }
+
 .nav-2{
 	width: 400px;
 	color: #3D37F1;
 	display: flex;
 	align-items: center; 
 	justify-content: space-between;
-
 }
 
 .conteiner1{
@@ -40,7 +40,6 @@
 
 .Provide2{
 	font-size: 72px;
-
 }
 
 .big-img{
@@ -61,8 +60,7 @@
 	display: flex;
 	justify-content: center; 
 	align-items: center;
-	justify-content: space-evenly; 
-	
+	justify-content: space-evenly; 	
 }
 
 .conteiner2{
@@ -70,7 +68,7 @@
 	margin: 0 auto;
 	margin-bottom: 50px;
 	font-family: 'Roboto';
-	}
+}
 
 
 .box1{
@@ -82,23 +80,24 @@
 	align-items: center;
 	flex-direction: column;
 }
+
 .boxes{
 	display: flex;
 	justify-content: space-between; 
-
 }
+
 .white-box{
 	background: white;
 	border-color: black;
 	width: 130px;
-	height: 45px;
-	
+	height: 45px;	
 	border-radius: 23px;
 	margin-top: 11px;
 	display: flex;
 	justify-content: center; 
 	align-items: center;
 }
+
 .Fast{
 	width: 328px;
 	text-align: center;
@@ -107,23 +106,26 @@
 	margin-top: 57px;
 	margin-bottom: 13px;
 }
-.text{
-	
+
+.text{	
 	width: 710px;
 	text-align: center;
 	margin: 0 auto;
 	margin-bottom: 67px;
 	margin-top: 27px;
 }
+
 .cont2 {
 	margin-top: 60px;
 }
+
 .we{
 	margin-top: 17px;
 	margin-bottom: 21px;
 	font-weight: bold;
 	font-size: 40px;
 }
+
 .our{
 	color: #3D37F1;
 	font-weight: bold;

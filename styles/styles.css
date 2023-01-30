@@ -8,13 +8,19 @@
 .navigation{
 	display: flex;
 	align-items: center; 
-	width: 1200px;
+	max-width: 1200px;
+	width: 100%;
 	justify-content: space-between;
 	font-family: 'Lato';
 }
+.logo{
+	max-width: 300px;
+	width: 100;
+}
 
 .nav-2{
-	width: 400px;
+	max-width: 400px;
+	width: 100%;
 	color: #3D37F1;
 	display: flex;
 	align-items: center; 
@@ -26,7 +32,8 @@
 }
 
 .conteiner1{
-	width: 1200px;
+	max-width: 1200px;
+	width: 100%;
 	height: 411px;
 	margin: 0 auto;
 	display: flex;
@@ -37,7 +44,7 @@
 }
  
  .Provide{
- 	width: 600px;
+ 	max-width: 600px;
  	height: 300px;
  	flex-flow: row-reverse wrap;	
 }
@@ -57,7 +64,8 @@
 }
 
 .blue-box{
-	width: 263px;
+	max-width: 263px;
+	width: 100%;
 	height: 76px;
 	background: #3D37F1;
 	border-radius: 38px;
@@ -68,7 +76,8 @@
 }
 
 .conteiner2{
-	width: 1200px;
+	max-width: 1200px;
+	width: 100%;
 	margin: 0 auto;
 	margin-bottom: 50px;
 	font-family: 'Roboto';

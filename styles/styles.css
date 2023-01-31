@@ -54,7 +54,8 @@
 }
 
 .big-img{
-	width: 500px;
+	max-width: 500px;
+	width: 100%;
 }
 
 .mobile{
@@ -92,11 +93,13 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	margin-bottom: 30px;
 }
 
 .boxes{
 	display: flex;
 	justify-content: space-between; 
+	flex-wrap: wrap;
 }
 
 .white-box{
@@ -120,7 +123,8 @@
 }
 
 .text{	
-	width: 710px;
+	max-width: 710px;
+	width: 100%;
 	text-align: center;
 	margin: 0 auto;
 	margin-bottom: 67px;

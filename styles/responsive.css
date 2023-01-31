@@ -13,7 +13,9 @@
         width: 480px;
         flex-direction: column;
         align-items: center;
-       
+    }
+    .nav-2{
+        margin-top: 30px;
     }
 } 
 
@@ -34,7 +36,7 @@
         margin-bottom: 15px;
     }
     .blue-box{
-        width: 50%;
+        width: 40%;
         margin-top: 2%;
     }
     }  
@@ -64,35 +66,37 @@
         flex-wrap: wrap;
         justify-content: center;
         width: 95%;
- }
+    }
 
  .boxes{
     flex-wrap: wrap;
     justify-content: center;
-}
+    margin-top: 50px;
+    }
 
 .box1{
     width: 44%;
     height: 50%;
     margin-left: 3px;
     margin-right: 3px;  
-}
+    }
 
 .icon{
     margin-top: 20px;
-}
+    }
 
 .website{
     margin-top: 20px;
-}
+    }
 
 .Fast{
     margin-top: 2px;
-}
+    }
 
 .white-box{
+    width: 80%;
     margin-bottom: 10px;
-}
+    }
 
 }
 
@@ -102,7 +106,7 @@
         justify-content: center;
         width: 95%;
         margin-top: 100px;
- }
+    }
 
  .boxes{
     flex-wrap: wrap;
@@ -110,10 +114,11 @@
      }
 
 .box1{
-    width: 44%;
-    margin-left: 3px;
-    margin-right: 3px;  
-}
+    width: 45%;
+    margin-left: 10px;
+    margin-right: 10px;  
+    }
+    
 }
 
 

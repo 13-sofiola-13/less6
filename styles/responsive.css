@@ -1,9 +1,8 @@
-
-
 @media(min-width:320px) and (max-width: 480px){
     .navigation{
         flex-direction: column;
-        align-items: center;       
+        align-items: center;  
+        background: blue;     
     }
     .nav-2{
         display: none;
@@ -19,176 +18,80 @@
     }
 } 
 
-@media(min-width: 320px) and (max-width: 480px){
+/* pirveli bloki */
+
+@media(min-width:320px) and (max-width: 1024px){
     .conteiner1{
-        width: 100%;
-        height: 100%;
         flex-wrap: wrap;
         justify-content: center;
-        margin-left: 10px;
-        margin-right: 10px;
-     }
-
-     .big-img{
-        width: 90%;
+        width: 95%;
+        height: 700px;
         margin-top: 20px;
-        flex-wrap: wrap;
-        justify-content: center;
-        
-     }
-     .Provide2{
-        font-size: 25px;
-        flex-wrap: wrap;
-        justify-content: center;        
-     }
+        margin-bottom: 10px;
+        background: red;
+    }
 
-     .mobile{ 
-        flex-wrap: wrap;
-        justify-content: center; 
-        font-size: 20px;
-
-     }
-
+    .mobile{
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
     .blue-box{
-        width: 40%;
+        width: 50%;
+        margin-top: 2%;
     }
+    }  
+   
 
-    .wave-me{
-        font-size: 15px;
+
+    @media (min-width: 320px) and (max-width: 480px) {
+        .big-img{
+            width: 100%;
+            height: 100%;
+            margin-top: 35px;
     }
-}
+    }
+     @media (min-width: 481px) and (max-width: 1024px) {
+        .big-img{
+            width: 100%;
+            height: 100%;
+            margin-top: 20px;            
+      }
+    } 
 
-/* @media(min-width: 481px) and (max-width: 768){
-    .conteiner1{
-        width: 380px;
-        flex-direction: column;
-        align-items: center;
-     }
 
-     .big-img{
-        width: 250px;
-        margin-top: 50px;
-        
-     }
 
-}
-
-@media(min-width: 769) and (max-width: 1024px){
-
-    .conteiner1{
-        width: 700px;
-        flex-direction: column;
-        align-items: center;
-     }
-
-     .big-img{
-        width: 300px;
-        margin-top: 50px;        
-     }
-} */
-
-@media(min-width: 320) and (max-width: 1024px){
-
-    .text{
+/* meore bloki */
+@media(min-width:320px) and (max-width: 480px){
+    .conteiner2{
         flex-wrap: wrap;
         justify-content: center;
-        width: 50%;margin-top: 5px;
-        margin-bottom: 5px;
-             
-     }         
-     .our{
-        font-size: 30px;
-     }    
-     .we{
-        width: 50px;
+        width: 95%;
+        background: rebeccapurple;
+ }
+
+ .boxes{
+    background: yellow;
+    flex-wrap: wrap;
+    justify-content: center;
      }
-     .text-our{
-        flex-wrap: wrap;
-        width: 80%;
-     }
-     }
+}
 
-     @media(min-width: 320px) and (max-width: 480px){
-        .boxes{
-            flex-wrap: wrap;
-            justify-content: center;
-            width: 90%;
-            height:90%;
-            
-        }
-        .box1{
-            
-            width: 45%;
-            height: 250px;
-            margin-right: 10px;
-        }
-        .Fast{
-            width: 95%;
-            font-size: 9px;
-        }
-        
-        .website{
-            font-size: 9px;
-        }
-        .white-box{
-            width: 40%;
-            height: 10%;
-        }
 
-        .icon{
-            width: 40px;
-            height: 45px;
-        }
 
-        .read-more{
-            font-size: 9px;
-        }
-     }
 
-     @media(min-width: 481px) and (max-width: 900px){
-        .boxes{
-            margin: 0 auto;
-            flex-wrap: wrap;
-            justify-content: center;
-            width: 80%;
-            height:60%;
-        }
-        .box1{
-            width: 250px;
-            height: 350px;
-            margin-right: 20px;
-        }
-        .Fast{
-            width: 70%;
-        }
-        
-        .white-box{
-            width: 40%;
-        }
-     }    
 
-     @media(min-width: 901px) and (max-width: 1024px){
-        .boxes{
-            
-            background: red;
-            flex-wrap: wrap;
-            justify-content: center;
-            width: 100%;
-            height:100%;
-        }
-        .box1{
-            width: 250px;
-            height: 350px;
-            margin-right: 20px;
-            /* margin-left: 20px; */
-        }
-        .Fast{
-            width: 70%;
-        }
-        
-        .white-box{
-            width: 40%;
-        }
-     } 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

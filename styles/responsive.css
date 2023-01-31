@@ -69,7 +69,31 @@
  .boxes{
     flex-wrap: wrap;
     justify-content: center;
-     }
+}
+
+.box1{
+    width: 44%;
+    height: 50%;
+    margin-left: 3px;
+    margin-right: 3px;  
+}
+
+.icon{
+    margin-top: 20px;
+}
+
+.website{
+    margin-top: 20px;
+}
+
+.Fast{
+    margin-top: 2px;
+}
+
+.white-box{
+    margin-bottom: 10px;
+}
+
 }
 
 @media(min-width:481px) and (max-width: 1024px){

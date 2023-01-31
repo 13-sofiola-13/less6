@@ -76,6 +76,28 @@
      }
 }
 
+@media(min-width:481px) and (max-width: 1024px){
+    .conteiner2{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 95%;
+        background: green;
+ }
+
+ .boxes{
+    background: blue;
+    flex-wrap: wrap;
+    justify-content: center;
+     }
+
+.box1{
+    width: 44%;
+    margin-left: 3px;
+    margin-right: 3px;
+    
+    
+}
+}
 
 
 

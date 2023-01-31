@@ -1,8 +1,7 @@
 @media(min-width:320px) and (max-width: 480px){
     .navigation{
         flex-direction: column;
-        align-items: center;  
-        background: blue;     
+        align-items: center;   
     }
     .nav-2{
         display: none;
@@ -28,7 +27,6 @@
         height: 700px;
         margin-top: 20px;
         margin-bottom: 10px;
-        background: red;
     }
 
     .mobile{
@@ -66,11 +64,9 @@
         flex-wrap: wrap;
         justify-content: center;
         width: 95%;
-        background: rebeccapurple;
  }
 
  .boxes{
-    background: yellow;
     flex-wrap: wrap;
     justify-content: center;
      }
@@ -81,11 +77,9 @@
         flex-wrap: wrap;
         justify-content: center;
         width: 95%;
-        background: green;
  }
 
  .boxes{
-    background: blue;
     flex-wrap: wrap;
     justify-content: center;
      }
@@ -93,9 +87,7 @@
 .box1{
     width: 44%;
     margin-left: 3px;
-    margin-right: 3px;
-    
-    
+    margin-right: 3px;  
 }
 }
 
